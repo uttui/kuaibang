@@ -1,6 +1,13 @@
 {
-	"pages": [{
-			"path": "pages/index/index",
+	"pages": [
+		// {
+		// 	"path": "pages/index/dengru",
+		// 	"style": {
+		// 		"navigationBarTitleText": "快帮网"
+		// 	}
+		// },
+		{
+			"path": "pages/index/shouye",
 			"style": {
 				"navigationBarTitleText": "快帮网"
 			}

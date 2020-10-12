@@ -9,16 +9,16 @@
     <view class="shouji">
       <view class="wrap">
         <image class="icon" src="/static/shouji.png" />
-        <input type="text" class="input" placeholder="请输入手机号码" />
+        <input type="text" class="input" placeholder="手机号码" />
       </view>
     </view>
     <view class="yanzheng">
       <view class="wrap">
         <view class="left">
           <image class="icon" src="/static/duanxin.png" />
-          <input type="text" class="input" placeholder="验证码" />
+          <input type="text" class="input" placeholder="短信验证码" />
         </view>
-        <view class="btn">获取验证码</view>
+        <view class="btn">获取动态码</view>
       </view>
     </view>
     <view class="btn-dengru">
@@ -68,7 +68,7 @@ export default {};
       display: flex;
       border-radius: 22px;
       border: 3px solid #eeeeee;
-	  align-items: baseline;
+      align-items: baseline;
 
       .icon {
         width: 11px;
@@ -79,7 +79,7 @@ export default {};
       .input {
         margin-left: 10px;
         border: none;
-		color: #CCCCCC;
+        color: #cccccc;
       }
     }
   }
@@ -99,7 +99,7 @@ export default {};
         border-radius: 22px;
         border: 3px solid #eeeeee;
         display: flex;
-		align-items: baseline;
+        align-items: baseline;
 
         .icon {
           width: 17px;
@@ -112,7 +112,7 @@ export default {};
           margin-left: 5px;
           border: none;
           width: 80px;
-		  color: #CCCCCC;
+          color: #cccccc;
         }
       }
 
@@ -154,7 +154,7 @@ export default {};
       margin-right: auto;
       height: 20px;
       font-size: 14px;
-    //   font-family: PingFangSC-Regular, PingFang SC;
+      //   font-family: PingFangSC-Regular, PingFang SC;
       font-weight: 400;
       color: #0e8ed8;
       line-height: 20px;
