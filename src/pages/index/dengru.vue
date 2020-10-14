@@ -52,7 +52,6 @@ export default {};
     margin-top: 10px;
     height: 20px;
     font-size: 14px;
-    // font-family: PingFangSC-Regular, PingFang SC;
     font-weight: 400;
     color: #ff552e;
     line-height: 20px;

@@ -12,6 +12,12 @@
 				"navigationBarTitleText": "快帮网"
 			}
 		}
+		// {
+		// 	"path": "pages/index/fabu",
+		// 	"style": {
+		// 		"navigationBarTitleText": "发布"
+		// 	}
+		// }
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
