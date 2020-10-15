@@ -1,23 +1,24 @@
 {
 	"pages": [
-		// {
-		// 	"path": "pages/index/dengru",
-		// 	"style": {
-		// 		"navigationBarTitleText": "快帮网"
-		// 	}
-		// },
 		{
-			"path": "pages/index/shouye",
+			"path": "pages/pages/shouye/shouye",
 			"style": {
 				"navigationBarTitleText": "快帮网"
 			}
+		},
+		{
+			"path": "pages/pages/dengru/dengru",
+			"style": {
+				"navigationBarTitleText": "快帮网"
+			}
+		},
+		
+		{
+			"path": "pages/pages/fabu/fabu",
+			"style": {
+				"navigationBarTitleText": "发布"
+			}
 		}
-		// {
-		// 	"path": "pages/index/fabu",
-		// 	"style": {
-		// 		"navigationBarTitleText": "发布"
-		// 	}
-		// }
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
