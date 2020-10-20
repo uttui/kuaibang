@@ -93,44 +93,40 @@
     line-height: 20px;
   }
   .box {
+    justify-content: space-between;
     margin-left: 7%;
-    margin-top: 10px;
     display: flex;
     height: 80px;
     width: 85%;
     border-bottom: #eeeeee 1px solid;
+    align-items: center;
     .s-box {
-      margin-top: 14px;
-      margin-left: 6px;
+      
       .icon {
+        margin-top: 5%;
         width: 32px;
         height: 32px;
       }
       .biaoqian {
-        margin-top: 5px;
+        margin-top: 3px;
         text-align: center;
         font-size: 12px;
         color: #666666;
       }
     }
     .text {
-      margin-top: 16px;
-      margin-left: 37px;
+      width: 70%;
       .text-title {
         font-size: 14px;
         font-weight: bold;
         color: #333333;
       }
       .s-text {
-          margin-top: 3px;
         font-size: 12px;
         color: #999999;
       }
     }
     .jiantou {
-      margin-top: 29px;
-      margin-left: 90px;
-      margin-right: 6px;
       width: 8px;
       height: 15px;
     }

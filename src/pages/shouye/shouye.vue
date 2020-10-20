@@ -54,9 +54,9 @@
       </view>
     </view>
     <view class="title">
-      <view class="shengyi">生意转让</view>
-      <view class="chuzu">房屋出租</view>
-      <view class="chuzu">房屋求租</view>
+      <view class="text on-text">生意转让</view>
+      <view class="text">房屋出租</view>
+      <view class="text">房屋求租</view>
     </view>
     <view class="tuijian">
       <image class="icon" src="/static/icon/tupian-3.png" />
@@ -101,11 +101,13 @@ export default {};
       align-self: center;
     }
     .wrap {
-      margin-left: 59px;
+      margin-left: 20px;
       height: 30px;
       background: #f9f9f9;
       border-radius: 15px;
       display: flex;
+      width: 80%;
+      
       .icon {
         margin-left: 20px;
         width: 16px;
@@ -115,6 +117,7 @@ export default {};
       .input {
         margin-left: 10px;
         font-size: 12px;
+        width: 80%;
         color: #cccccc;
         align-self: center;
       }
@@ -152,17 +155,17 @@ export default {};
     border-radius: 40px;
 
     .m-icon {
-      margin-left: 37%;
+      height: 75px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
       .s-icon {
-        float: left;
         width: 8px;
         height: 8px;
-        background: #ffffff;
+        background:#FFFFFF;
         opacity: 0.7;
-        margin-top: 70px;
-        margin-left: 10px;
         border-radius: 50%;
-        cursor: pointer;
+        margin-right: 10px;
       }
     }
   }
@@ -170,8 +173,16 @@ export default {};
     display: flex;
     margin-top: 20px;
     border-bottom: #eeeeee 1px solid;
-
-    .shengyi {
+    .text {
+      width: 48px;
+      height: 17px;
+      font-size: 12px;
+      font-weight: 400;
+      color: #0e8ed8;
+      line-height: 17px;
+      margin-left: 20px;
+    }
+    .on-text {
       width: 48px;
       height: 27px;
       font-size: 12px;
@@ -181,28 +192,18 @@ export default {};
       margin-left: 20px;
       border-bottom: #ff552e 1px solid;
     }
-    .chuzu {
-      width: 48px;
-      height: 17px;
-      font-size: 12px;
-      font-weight: 400;
-      color: #0e8ed8;
-      line-height: 17px;
-      margin-left: 20px;
-    }
   }
   .tuijian {
     margin-top: 10px;
     display: flex;
     .icon {
       margin-left: 20px;
-      width: 150px;
+      width: 45%;
       height: 80px;
     }
     .s-box {
       margin-left: 10px;
       .s-title {
-        width: 175px;
         font-size: 12px;
         font-weight: 500;
         color: #333333;
@@ -210,9 +211,7 @@ export default {};
       }
       .text {
         font-size: 12px;
-        font-weight: 400;
         color: #666666;
-        line-height: 17px;
         margin-top: 5px;
       }
     }

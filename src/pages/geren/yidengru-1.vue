@@ -16,12 +16,12 @@
     </view>
     <view class="title-text"> 我发布的 </view>
     <view class="fenlei">
-      <view class="fangchan">房产</view>
-      <view class="zhaopin">招聘</view>
-      <view class="zhaopin">求职</view>
-      <view class="zhaopin">二手</view>
-      <view class="zhaopin">万能帮</view>
-      <view class="zhaopin">快购</view>
+      <view class="text on-text">房产</view>
+      <view class="text">招聘</view>
+      <view class="text">求职</view>
+      <view class="text">二手</view>
+      <view class="text">万能帮</view>
+      <view class="text">快购</view>
       <image class="icon" src="/static/icon/jiantou-2.png" />
     </view>
     <view class="title-box">
@@ -70,16 +70,14 @@
       </view>
     </view>
     <view class="jiewei"> 
-        <view class="yijian">
+        <view class="box">
             <view class="text">意见反馈</view>
-            <image class="yi-icon" src="/static/icon/jiantou-2.png">
+            <image class="icon" src="/static/icon/jiantou-2.png">
         </view>
-        <view class="lianxi">
+        <view class="box">
             <view class="text">联系客服</view>
-            <image class="lian-icon" src="/static/icon/jiantou-2.png">
+            <image class="icon" src="/static/icon/jiantou-2.png">
         </view>
-        
-        
     </view>
   </view>
 </template>
@@ -110,6 +108,7 @@ export default {};
       line-height: 33px;
     }
     .box {
+      margin-left: 7%;
       width: 85%;
       height: 55px;
       background: #ffffff;
@@ -117,16 +116,17 @@ export default {};
       border: 1px solid #eeeeee;
       position: absolute;
       top: 85px;
-      left: 20px;
       display: flex;
+      justify-content: space-around;
       .xinxi {
-        margin-left: auto;
         margin-top: 20px;
-        width: 40%;
+        width: 50%;
         height: 21px;
         display: flex;
         border-right: #eeeeee 1px solid;
+        
         .icon {
+          margin-left: 25%;
           width: 24px;
           height: 20px;
         }
@@ -144,11 +144,11 @@ export default {};
       .fabu {
         margin-right: auto;
         margin-top: 20px;
-        width: 40%;
+        width: 50%;
         height: 21px;
         display: flex;
         .icon {
-          margin-left: 24px;
+          margin-left: 25%;
           width: 24px;
           height: 20px;
         }
@@ -179,7 +179,16 @@ export default {};
     border-bottom: #eeeeee 1px solid;
     display: flex;
     margin-bottom: 10px;
-    .fangchan {
+    justify-content: space-between;
+    margin-right: 10px;
+    .text{
+      height: 30px;
+      width: 60px;
+      text-align: center;
+      font-size: 14px;
+      color: #333333;
+    }
+    .on-text{
       height: 30px;
       width: 60px;
       text-align: center;
@@ -189,23 +198,39 @@ export default {};
       line-height: 20px;
       border-bottom: #ff552e 1px solid;
     }
-    .zhaopin {
-      height: 30px;
-      width: 60px;
-      text-align: center;
-      font-size: 14px;
-      font-weight: 400;
-      color: #333333;
-      line-height: 20px;
-    }
-    .icon {
+    .icon{
       width: 14px;
       height: 7px;
       background: #0e8ed8;
-      margin-left: 5px;
-      margin-top: 7px;
-      margin-right: 3px;
+      top: 23%;
     }
+    // .fangchan {
+    //   height: 30px;
+    //   width: 60px;
+    //   text-align: center;
+    //   font-size: 14px;
+    //   font-weight: 400;
+    //   color: #ff552e;
+    //   line-height: 20px;
+    //   border-bottom: #ff552e 1px solid;
+    // }
+    // .zhaopin {
+    //   height: 30px;
+    //   width: 60px;
+    //   text-align: center;
+    //   font-size: 14px;
+    //   font-weight: 400;
+    //   color: #333333;
+    //   line-height: 20px;
+    // }
+    // .icon {
+    //   width: 14px;
+    //   height: 7px;
+    //   background: #0e8ed8;
+    //   margin-left: 5px;
+    //   margin-top: 7px;
+    //   margin-right: 3px;
+    // }
   }
   .title-box {
     display: flex;
@@ -279,38 +304,54 @@ export default {};
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 40px;
-    .yijian {
-      display: flex;
-      .text {
-        font-size: 14px;
-        font-weight: 400;
-        color: #333333;
-        line-height: 20px;
-      }
-      .yi-icon {
-        margin-top: 3px;
-        margin-left: 80%;
-        width: 8px;
-        height: 15px;
-      }
-    }
-    .lianxi {
-      display: flex;
+    .box{
       margin-top: 10px;
-
-      .text {
+      display: flex;
+      justify-content: space-between;
+      .text{
         font-size: 14px;
         font-weight: 400;
         color: #333333;
         line-height: 20px;
       }
-      .lian-icon {
+      .icon{
         margin-top: 3px;
-        margin-left: 80%;
         width: 8px;
         height: 15px;
       }
     }
+    // .yijian {
+    //   display: flex;
+    //   .text {
+    //     font-size: 14px;
+    //     font-weight: 400;
+    //     color: #333333;
+    //     line-height: 20px;
+    //   }
+    //   .yi-icon {
+    //     margin-top: 3px;
+    //     margin-left: 80%;
+    //     width: 8px;
+    //     height: 15px;
+    //   }
+    // }
+    // .lianxi {
+    //   display: flex;
+    //   margin-top: 10px;
+
+    //   .text {
+    //     font-size: 14px;
+    //     font-weight: 400;
+    //     color: #333333;
+    //     line-height: 20px;
+    //   }
+    //   .lian-icon {
+    //     margin-top: 3px;
+    //     margin-left: 80%;
+    //     width: 8px;
+    //     height: 15px;
+    //   }
+    // }
   }
 }
 </style>

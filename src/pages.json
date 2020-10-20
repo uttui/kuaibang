@@ -1,25 +1,38 @@
 {
 	"pages": [
+		// {
+		// 	"path": "pages/dengru/dengru",
+		// 	"style": {
+		// 		"navigationBarTitleText": "快帮网"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/shouye/shouye",
+		// 	"style": {
+		// 		"navigationBarTitleText": "快帮网"
+		// 	}
+		// },
+		
+		// {
+		// 	"path": "pages/fabu/fabu",
+		// 	"style": {
+		// 		"navigationBarTitleText": "发布"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/chazhao/chazhao",
+		// 	"style": {
+		// 		"navigationBarTitleText": "房产"
+		// 	}
+		// },
 		{
-			"path": "pages/pages/shouye/shouye",
+			"path": "pages/xiangqing/xiangqing",
 			"style": {
-				"navigationBarTitleText": "快帮网"
+				"navigationBarTitleText": "商铺详情"
 			}
 		},
 		{
-			"path": "pages/pages/dengru/dengru",
-			"style": {
-				"navigationBarTitleText": "快帮网"
-			}
-		},
-		{
-			"path": "pages/pages/fabu/fabu",
-			"style": {
-				"navigationBarTitleText": "发布"
-			}
-		},
-		{
-			"path": "pages/pages/geren/yidengru-1",
+			"path": "pages/geren/yidengru-1",
 			"style": {
 				"navigationBarTitleText": "个人中心"
 			}
